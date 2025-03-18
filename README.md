@@ -1,5 +1,5 @@
 # SIMD-Within-a-Register Full Processor with 8-Bit Posit Support
-## With FPGA supplementary support for Xilinx Vivado Implementation for XC7 CPG236 (Basys 3) FPGAs.
+## With Planned FPGA supplementary support for Xilinx Vivado Implementation for XC7 CPG236 (Basys 3) FPGAs.
 
 This repository contains my implementation of the ECE480 "Gr8BOnd" Project from 2020 at the University of Kentucky. This design consists of a 16-bit processor with support for SIMD parallelism of two 8-bit [Posits](http://www.johngustafson.net/pdfs/BeatingFloatingPoint.pdf), an alternative to floating point numbers. It also contains support for 16-bit floats via lookup table, pipelined instructions, OS Trap functionality, and branch prediction.
 
